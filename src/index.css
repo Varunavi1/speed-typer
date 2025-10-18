@@ -1,0 +1,17 @@
+body {/*this is the base bage - will al the typography and smoothing*/
+  margin:0;
+  /*these are the system fonts*/
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+/*rendering tweaks for the font to work on WebKit and macOS*/
+  -webkit-font-smoothing: antialiased;
+
+  -moz-osx-font-smoothing: grayscale;
+}
+/*the monospace font stack for inline elements*/
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  
+    monospace;
+}
